@@ -6,6 +6,7 @@
   <% end %>
 </p>
 <%if logged_in? %>
+<%end%>
 
 <p><%= image_tag @article.image.url %></p>
 <p><%= @article.body %></p>
@@ -17,5 +18,5 @@
 
 
 <%= link_to "edit", edit_article_path(@article) %>
-<%end%>
+
 
