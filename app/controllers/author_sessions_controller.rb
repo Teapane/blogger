@@ -15,4 +15,5 @@ class AuthorSessionsController < ApplicationController
     logout
     redirect_to(:authors, message: 'Logged out!!')
   end
+  
 end
